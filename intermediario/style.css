@@ -3,7 +3,10 @@
     margin: 0px;
 }
 body{
-   background-color: #E5E5E5; 
+    background-color: #E5E5E5; 
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 body::after{
     content: '';
@@ -24,6 +27,12 @@ header{
     gap: 10px;
     margin-top: 138px;
     border: dashed 1px #000;
+    color: #FFFFFF;
+}
+header h1{
+    font-family: "Staatliches", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 form{
     position: inherit;
@@ -33,6 +42,12 @@ form{
     display: flex;
     flex-direction: column;
     gap: 10px;
+}
+fieldset legend{
+    font-family: "Staatliches", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #535971;
 }
 footer{
     position: inherit;
@@ -45,5 +60,9 @@ footer{
 button{
     margin: auto;
     background-color: #FF5374;
+    font-family: "Staatliches", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #fff;
 
 }

@@ -18,15 +18,22 @@ body::after{
     z-index: -1;
     background-color: #535971;
 }
+section{
+   
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: auto;
+    width: 750px;
+}
 header{
     position: inicial;
     display: flex;
     margin: auto;
-    width: 750px;
+    
     flex-direction: column;
     gap: 10px;
     margin-top: 138px;
-    border: dashed 1px #000;
     color: #FFFFFF;
 }
 header h1{
@@ -35,10 +42,11 @@ header h1{
     font-style: normal;
 }
 form{
+    display: flex;
     position: inherit;
     width: 750px;
-    margin: auto;
-    background-color: #E6E6F0;
+    
+    background-color: #FFFFFF;
     display: flex;
     flex-direction: column;
     gap: 10px;
